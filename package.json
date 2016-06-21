@@ -1,6 +1,9 @@
 {
   "name": "node-token-jwt-auth-server",
   "main": "authentication_server.js",
+  "scripts": {
+    "start":"node authentication_server.js"
+  }
   "dependencies": {
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
